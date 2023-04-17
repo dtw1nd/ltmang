@@ -9,12 +9,12 @@
 
 #define BUF_SIZE 1024
 
-typedef struct {
+typedef struct SinhVien {
     char mssv[10];
     char hoten[50];
     char ngaysinh[20];
     float diemtb;
-} SinhVien;
+};
 
 int main(int argc, char *argv[]) {
     time_t now=time(0);
